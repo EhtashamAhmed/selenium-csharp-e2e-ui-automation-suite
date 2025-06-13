@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ImportGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <Import Project="$(NuGetPackageRoot)xunit.core\2.4.2\build\xunit.core.targets" Condition="Exists('$(NuGetPackageRoot)xunit.core\2.4.2\build\xunit.core.targets')" />
+    <Import Project="$(NuGetPackageRoot)system.text.json\8.0.0\buildTransitive\net6.0\System.Text.Json.targets" Condition="Exists('$(NuGetPackageRoot)system.text.json\8.0.0\buildTransitive\net6.0\System.Text.Json.targets')" />
+    <Import Project="$(NuGetPackageRoot)selenium.webdriver.microsoftdriver\17.17134.0\build\Selenium.WebDriver.MicrosoftDriver.targets" Condition="Exists('$(NuGetPackageRoot)selenium.webdriver.microsoftdriver\17.17134.0\build\Selenium.WebDriver.MicrosoftDriver.targets')" />
+    <Import Project="$(NuGetPackageRoot)selenium.webdriver.chromedriver\119.0.6045.10500\build\Selenium.WebDriver.ChromeDriver.targets" Condition="Exists('$(NuGetPackageRoot)selenium.webdriver.chromedriver\119.0.6045.10500\build\Selenium.WebDriver.ChromeDriver.targets')" />
+    <Import Project="$(NuGetPackageRoot)selenium.webdriver\4.15.0\buildTransitive\Selenium.WebDriver.targets" Condition="Exists('$(NuGetPackageRoot)selenium.webdriver\4.15.0\buildTransitive\Selenium.WebDriver.targets')" />
+    <Import Project="$(NuGetPackageRoot)selenium.firefox.webdriver\0.27.0\build\Selenium.Firefox.WebDriver.targets" Condition="Exists('$(NuGetPackageRoot)selenium.firefox.webdriver\0.27.0\build\Selenium.Firefox.WebDriver.targets')" />
+    <Import Project="$(NuGetPackageRoot)microsoft.extensions.logging.abstractions\6.0.3\buildTransitive\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.targets" Condition="Exists('$(NuGetPackageRoot)microsoft.extensions.logging.abstractions\6.0.3\buildTransitive\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.targets')" />
+    <Import Project="$(NuGetPackageRoot)microsoft.aspnetcore.components.analyzers\6.0.16\buildTransitive\netstandard2.0\Microsoft.AspNetCore.Components.Analyzers.targets" Condition="Exists('$(NuGetPackageRoot)microsoft.aspnetcore.components.analyzers\6.0.16\buildTransitive\netstandard2.0\Microsoft.AspNetCore.Components.Analyzers.targets')" />
+    <Import Project="$(NuGetPackageRoot)microsoft.codecoverage\17.6.1\build\netstandard2.0\Microsoft.CodeCoverage.targets" Condition="Exists('$(NuGetPackageRoot)microsoft.codecoverage\17.6.1\build\netstandard2.0\Microsoft.CodeCoverage.targets')" />
+    <Import Project="$(NuGetPackageRoot)microsoft.net.test.sdk\17.6.1\build\netcoreapp3.1\Microsoft.NET.Test.Sdk.targets" Condition="Exists('$(NuGetPackageRoot)microsoft.net.test.sdk\17.6.1\build\netcoreapp3.1\Microsoft.NET.Test.Sdk.targets')" />
+    <Import Project="$(NuGetPackageRoot)microsoft.extensions.configuration.usersecrets\8.0.0\buildTransitive\net6.0\Microsoft.Extensions.Configuration.UserSecrets.targets" Condition="Exists('$(NuGetPackageRoot)microsoft.extensions.configuration.usersecrets\8.0.0\buildTransitive\net6.0\Microsoft.Extensions.Configuration.UserSecrets.targets')" />
+  </ImportGroup>
+</Project>
