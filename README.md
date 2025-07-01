@@ -105,3 +105,14 @@ The tests are set to run in a specific order as defined by the `[Order(N)]` attr
 - **Dynamic XPATHS**: The project leverages the dynamic XPATHS for each web module/page, written with precision to have the UI elements not affected due to frequent UI changes.
 
 This structure ensures that the test suite is easily human readable, modular, maintainable, and robust against common automation challenges.
+
+
+## Contact
+For questions or feedback, reach out to me:  
+- **GitHub**: [EhtashamAhmed](https://github.com/EhtashamAhmed)
+- **LinkedIn**: [Ehtasham Ahmad](https://www.linkedin.com/in/ehtasham-ahmad-b76807151/)  
+- **Email**: [ehtashamahmedea@gmail.com](mailto:[ehtashamahmedea@gmail.com])
+
+---
+
+This project highlights my skills in automation testing and framework design. I hope you find it a valuable addition to my portfolio!
